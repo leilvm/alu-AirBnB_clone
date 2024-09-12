@@ -12,6 +12,7 @@ class BaseModel:
 """
 class BaseModel
 """
+
     def __init__(self, *args, **kwargs): """initialize new basemodel instance arguments
     *args
     **kwargs"""
