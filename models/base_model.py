@@ -12,7 +12,6 @@ class BaseModel:
 """
 class BaseModel
 """
-
     def __init__(self, *args, **kwargs): """initialize new basemodel instance arguments
     *args
     **kwargs"""
@@ -45,4 +44,3 @@ class BaseModel
         """return string representation of the model instance"""
         clname = self.__class__.__name__
         return "[{}] ({}) {}".format(clname, self.id, self.__dict__)
-
